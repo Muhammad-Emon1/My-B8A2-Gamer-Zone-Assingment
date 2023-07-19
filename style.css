@@ -166,7 +166,7 @@ nav ul li a {
   padding-bottom: 7rem;
 }
 
-.online_games_title span{
+.online_games_title span {
   color: var(--secondary-txt-clr);
 }
 
@@ -183,6 +183,7 @@ nav ul li a {
 .video_card,
 .video_card img {
   width: 100%;
+  object-fit: cover;
 }
 
 .video_img_container {
@@ -211,7 +212,7 @@ nav ul li a {
   transition: all 0.2s linear;
 }
 
-.overlay i{
+.overlay i {
   font-size: 24px;
   margin: 10px;
 }
@@ -222,21 +223,33 @@ nav ul li a {
 
 .play_instantly {
   display: flex;
+  /* justify-content: space-between; */
 }
 
+
+.play_instantly_right{
+  display: flex;
+}
 .img_down {
   height: 25rem;
 }
+
+
 .img_up {
   height: 15rem;
-  position: relative;
-  top: -175px;
-  left: -90px;
-}
-.play_instantly_left {
-  text-align: right;
+  margin: 235px -130px 0px 0px;
+  z-index: 2;
 }
 
+
+.play_instantly_left {
+  text-align: right;
+  padding-right: 10rem;
+}
+
+.play_instantly_left h1 span{
+  color: var(--secondary-txt-clr);
+}
 .footer_nav1,
 .footer_logoes {
   display: flex;
