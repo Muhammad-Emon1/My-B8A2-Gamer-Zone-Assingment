@@ -7,7 +7,7 @@
 
 :root {
   --primary-txt-clr: #0b0223;
-  --secondary-txt-clr: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  --secondary-txt-clr: #8758f1;
   --btn-clr: #ff42a5;
   --logo-clr: linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%);
 }
@@ -88,14 +88,14 @@ nav ul li a {
 }
 
 .hero {
-  background-image: url("/images/Group 14.png");
+  background-image: url("images/Group 14.png");
   width: 100%;
   background-size: cover;
   padding-left: 0;
 }
 
 .hero_left {
-  background-image: url("/images/Group 14.png");
+  background-image: url("images/Group 14.png");
   width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -116,6 +116,7 @@ nav ul li a {
   font-size: 4.5rem;
   font-weight: 800;
   margin: 1rem 0;
+  color: var(--secondary-txt-clr);
 }
 
 .hero_left ul li {
@@ -165,6 +166,10 @@ nav ul li a {
   padding-bottom: 7rem;
 }
 
+.online_games_title span{
+  color: var(--secondary-txt-clr);
+}
+
 .games_video_container {
   display: flex;
   gap: 15px;
@@ -175,8 +180,44 @@ nav ul li a {
   height: 18rem;
 }
 
+.video_card,
+.video_card img {
+  width: 100%;
+}
+
+.video_img_container {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
 .video_card p {
   text-align: left;
+}
+
+.overlay {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.699);
+  color: white;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: all 0.2s linear;
+}
+
+.overlay i{
+  font-size: 24px;
+  margin: 10px;
+}
+
+.video_img_container:hover .overlay {
+  opacity: 1;
 }
 
 .play_instantly {
@@ -289,4 +330,37 @@ footer {
   font-weight: 600;
 }
 
+.cotation {
+  color: #534c64;
+  text-align: right;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 20px; /* 187.5% */
+}
 
+.we_are_gamers {
+  display: flex;
+  padding: 10rem 0;
+}
+.we_are_gamers_right h1 {
+  color: var(--secondary-txt-clr);
+}
+
+.we_are_gamers_right {
+  text-align: right;
+}
+.we_are_gamers_right h1 {
+  font-weight: 700;
+}
+
+.we_are_gamers_left {
+  display: flex;
+  align-items: center;
+}
+.we_are_gamers_left img {
+  height: 17rem;
+}
+
+.hide {
+  display: none;
+}
