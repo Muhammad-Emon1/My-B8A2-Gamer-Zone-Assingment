@@ -66,6 +66,15 @@ nav {
   height: 0.8rem;
 }
 
+.nav_right ul li:hover {
+  border-radius: 8px;
+  background: rgba(11, 2, 35, 0.1);
+  cursor: pointer;
+}
+.nav_right ul li {
+  margin: 0 5px;
+}
+
 .nav_right ul li:last-child {
   border-radius: 8px;
   background: rgba(11, 2, 35, 0.1);
@@ -186,9 +195,10 @@ nav ul li a {
   object-fit: cover;
 }
 
-.games_video_container_inner1, .games_video_container_inner2{
-display: flex;
-gap: 15px;
+.games_video_container_inner1,
+.games_video_container_inner2 {
+  display: flex;
+  gap: 15px;
 }
 
 .video_img_container {
@@ -236,14 +246,12 @@ gap: 15px;
   /* justify-content: space-between; */
 }
 
-
-.play_instantly_right{
+.play_instantly_right {
   display: flex;
 }
 .img_down {
   height: 25rem;
 }
-
 
 .img_up {
   height: 15rem;
@@ -251,13 +259,12 @@ gap: 15px;
   z-index: 2;
 }
 
-
 .play_instantly_left {
   text-align: right;
   padding-right: 10rem;
 }
 
-.play_instantly_left h1 span{
+.play_instantly_left h1 span {
   color: var(--secondary-txt-clr);
 }
 .footer_nav1,
@@ -341,6 +348,10 @@ footer {
 
 .company:hover {
   border: 1px solid tomato;
+}
+
+.company:hover .company_hover {
+  color: tomato;
 }
 
 .company img {
