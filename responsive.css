@@ -305,3 +305,163 @@
     display: none;
   }
 }
+
+
+@media screen and (min-width: 200px) and (max-width: 425px) {
+  :root {
+    font-size: 9px;
+  }
+  .container {
+    padding: 0 2rem;
+  }
+  .common_description {
+    font-size: 1.3rem;
+  }
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav_right {
+    margin: 1.5rem 0;
+  }
+  .nav_right ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .hero_container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero_left {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    order: 2;
+  }
+
+  .hero_left h1,
+  .hero_left h2 {
+    position: relative;
+    left: -35px;
+  }
+  .hero_left ul li svg {
+    height: 15px;
+  }
+
+  .hero_right {
+    display: flex;
+    align-items: center;
+    order: 1;
+  }
+
+  .we_are_gamers {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .we_are_gamers_right,
+  .we_are_gamers_right p,
+  .cotation {
+    text-align: center;
+  }
+  .we_are_gamers_right p {
+    line-height: 15px;
+  }
+  .games_video_container {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+
+  .games_video_container_inner1,
+  .games_video_container_inner2 {
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+  }
+  .online_games {
+    text-align: center;
+    padding-top: 0rem;
+    padding-bottom: 4rem;
+  }
+  .video_card img {
+    height: 35rem;
+    width: auto;
+  }
+
+  .video_card p {
+    text-align: center;
+  }
+
+  .play_instantly {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .play_instantly_left {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding-left: 8rem;
+  }
+
+  .img_up {
+    margin: 140px -62px 0px 0px;
+  }
+
+  .company {
+    padding: 5px;
+  }
+
+  .partners {
+    padding-top: 5rem;
+  }
+
+  .company img {
+    height: 2.5rem;
+  }
+
+  .footer_nav1,
+  .footer_logoes,
+  .footer_nav2 {
+    flex-direction: column;
+  }
+
+  .footer_nav1 ul,
+  .footer_logoes ul,
+  .foooter_nav2 {
+    margin-bottom: 20px;
+  }
+
+  .footer_nav2 ul li {
+    margin: 1rem 2rem;
+  }
+
+  .footer_logoes ul li i {
+    margin-right: 20px;
+  }
+
+  .copyright {
+    margin-top: 4rem;
+  }
+
+  .footer_logoes li i {
+    font-size: 2.5rem;
+  }
+
+  .footer_logoes {
+    margin-left: 2rem;
+  }
+
+  .footer_title {
+    margin-right: 2rem;
+  }
+
+  .overlay{
+    display: none;
+  }
+}
