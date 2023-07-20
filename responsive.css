@@ -306,13 +306,12 @@
   }
 }
 
-
 @media screen and (min-width: 200px) and (max-width: 425px) {
   :root {
     font-size: 9px;
   }
   .container {
-    padding: 0 2rem;
+    padding: 0 0rem;
   }
   .common_description {
     font-size: 1.3rem;
@@ -406,7 +405,7 @@
     flex-direction: column;
     text-align: center;
     align-items: center;
-    padding-left: 8rem;
+    padding:0rem;
   }
 
   .img_up {
