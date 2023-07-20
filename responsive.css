@@ -306,7 +306,7 @@
   }
 }
 
-@media screen and (min-width: 200px) and (max-width: 425px) {
+@media screen and (max-width: 425px) { 
   :root {
     font-size: 9px;
   }
