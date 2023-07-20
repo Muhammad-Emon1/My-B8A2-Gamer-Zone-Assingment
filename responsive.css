@@ -18,13 +18,98 @@
   }
 }
 
-@media screen and (min-width: 576px) and (max-width: 1000px) {
+@media screen and (min-width: 576px) and (max-width: 924px) {
   nav ul li a {
     font-size: 1.4rem;
   }
 
   :root {
     font-size: 7px;
+  }
+
+  .common_title {
+    font-size: 3rem;
+  }
+
+  .common_description {
+    font-size: 1.8rem;
+    line-height: 16px;
+  }
+
+  .we_are_gamers_left img {
+    height: 28rem;
+  }
+
+  .img_down {
+    position: relative;
+  }
+  .img_up {
+    position: absolute;
+    height: 15rem;
+    margin: 106px 0 0px -47px;
+    z-index: 2;
+  }
+
+  .partners {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3px;
+    padding: 16rem 0;
+    justify-content: center;
+  }
+  .we_are_gamers_right,
+  .cotation {
+    text-align: center;
+  }
+  .website_title {
+    font-size: 4rem;
+  }
+
+  .play_instantly {
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .play_instantly_left {
+    flex-direction: column;
+    display: flex;
+    text-align: center;
+    padding: 0;
+    align-items: center;
+  }
+
+  .play_instantly_left p {
+    width: 47%;
+    margin: 0 0 4rem 0;
+  }
+
+  .company p {
+    font-size: 1.8rem;
+  }
+
+  .company img {
+    height: 25px;
+  }
+
+  .games_video_container {
+    flex-direction: column;
+  }
+
+  .footer_nav1 ul li {
+    font-size: 1.5rem;
+  }
+
+  .footer_logoes ul li i {
+    font-size: 3rem;
+  }
+
+  .footer_logoes ul li {
+    margin-right: 5rem;
+  }
+
+  .footer_logoes {
+    flex-direction: column;
+    gap: 16px;
   }
 }
 
@@ -94,6 +179,14 @@
     text-align: center;
     align-items: center;
   }
+
+  .games_video_container_inner1,
+  .games_video_container_inner2 {
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+  }
+
   .video_card img {
     height: 35rem;
     width: auto;
@@ -139,8 +232,24 @@
   }
 
   .footer_nav1 ul,
-  .footer logoes ul,
+  .footer_logoes ul,
   .foooter_nav2 {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+  }
+
+  .footer_nav2 ul li {
+    margin: 1rem 2rem;
+  }
+
+  .footer_logoes ul li i {
+    margin-right: 20px;
+  }
+
+  .copyright {
+    margin-top: 4rem;
+  }
+
+  .footer_logoes li i {
+    font-size: 2.5rem;
   }
 }

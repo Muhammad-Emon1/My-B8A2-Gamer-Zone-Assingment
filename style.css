@@ -186,6 +186,11 @@ nav ul li a {
   object-fit: cover;
 }
 
+.games_video_container_inner1, .games_video_container_inner2{
+display: flex;
+gap: 15px;
+}
+
 .video_img_container {
   position: relative;
   overflow: hidden;
@@ -257,7 +262,7 @@ nav ul li a {
   font-size: 1.2rem;
   font-weight: 600;
   justify-content: center;
-  margin: 3rem 0;
+  margin: 2rem 0;
 }
 
 .footer_logoes li i {
